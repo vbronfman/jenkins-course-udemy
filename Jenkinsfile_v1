@@ -1,4 +1,4 @@
-node {
+node { #node (label: windows64-node)
    def commit_id
    stage('Preparation') {
      checkout scm
